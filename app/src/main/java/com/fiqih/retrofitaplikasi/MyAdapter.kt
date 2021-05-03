@@ -42,9 +42,9 @@ class MyAdapter (val context: Context,var dataList: ArrayList<CEOModel>?): Recyc
         holder.tvProvinsi.text = item?.province.toString()
 
         if (position % 2 == 0) {
-            holder.linlay.setBackgroundColor(ContextCompat.getColor(context, R.color.teal_200))
+            holder.linlay.setBackgroundColor(ContextCompat.getColor(context, R.color.ijo))
         } else {
-            holder.linlay.setBackgroundColor(ContextCompat.getColor(context, R.color.white))
+            holder.linlay.setBackgroundColor(ContextCompat.getColor(context, R.color.Abuabu))
         }
 
 
